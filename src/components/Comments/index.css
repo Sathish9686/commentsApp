@@ -1,0 +1,163 @@
+/* Write your CSS here */
+.bg-Container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.Container {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #cbd2d9;
+  margin-bottom: 8px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 35px;
+  font-family: roboto;
+}
+.paragraph {
+  color: #1e293b;
+  font-size: 17px;
+  font-family: roboto;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 250px;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+.input1 {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.button {
+  background-color: #0284c7;
+  padding: 10px;
+  width: 120px;
+  color: #ffffff;
+  text-align: center;
+  border: 0px;
+  border-radius: 4px;
+  margin: 6px;
+  font-size: 15px;
+}
+.image {
+  width: 100%;
+}
+.box {
+  background-color: #0284c7;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.paragraph1 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: roboto;
+}
+.paragraph2 {
+  color: #475569;
+  font-size: 22px;
+  font-family: roboto;
+}
+.card2 {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .bg-Container {
+    background-color: #ffffff;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Container {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cbd2d9;
+    margin-bottom: 8px;
+  }
+  .heading {
+    color: #1e293b;
+    font-size: 25px;
+    font-family: roboto;
+  }
+  .paragraph {
+    color: #1e293b;
+    font-size: 15px;
+    font-family: roboto;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    width: 150px;
+    padding: 4px;
+    margin: 6px;
+    border-radius: 3px;
+    border: 1px solid;
+  }
+  .input1 {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  .button {
+    background-color: #0284c7;
+    padding: 10px;
+    width: 120px;
+    color: #ffffff;
+    text-align: center;
+    border: 0px;
+    border-radius: 4px;
+    margin: 6px;
+    font-size: 15px;
+  }
+  .image {
+    width: 30%;
+  }
+  .box {
+    background-color: #0284c7;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+  }
+
+  .paragraph1 {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: roboto;
+  }
+  .paragraph2 {
+    color: #475569;
+    font-size: 22px;
+    font-family: roboto;
+  }
+  .card2 {
+    display: flex;
+    align-items: center;
+  }
+}
